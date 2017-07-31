@@ -1,0 +1,130 @@
+{
+  "sections": [{
+    "name": "Assets",
+    "inputs": [{
+        "title": "Initial Background",
+        "value": "img/BG 1tree.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "bg1"
+      },
+      {
+        "title": "2st Tap Background",
+        "value": "img/BG 2tree.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "bg2"
+      },
+      {
+        "title": "3rd Tap Background",
+        "value": "img/BG 3tree.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "bg3"
+      },
+      {
+        "title": "Final Background",
+        "value": "img/BG 4tree end.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "bg4"
+      },
+      {
+        "title": "Tap Sign Board Image",
+        "value": "img/CTA button SIGN.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "tap"
+      },
+      {
+        "title": "Watering Can Image",
+        "value": "img/Wateringcan.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "water_can"
+      },
+      {
+        "title": "Can w/ Water Image",
+        "value": "img/can_and_water.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "water_can_w"
+      },
+      {
+        "title": "Empty Bottle Image",
+        "value": "img/bottle smrsby.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "bottle_empty"
+      },
+      {
+        "title": "Drag Apple Label",
+        "value": "img/CTA copy Drag Apple.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "drag"
+      },
+      {
+        "title": "Logo at the Top",
+        "value": "img/logo smrsby.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "logo"
+      },
+      {
+        "title": "Arrow Points to Bottle Image",
+        "value": "img/arrow.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "arrow"
+      },
+      {
+        "title": "Final Centered Label (#MagicMoments)",
+        "value": "img/CTA copy Live your magic.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "live"
+      },
+      {
+        "title": "Install Button Image",
+        "value": "img/CTA install button.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "tap"
+      },
+      {
+        "title": "More Button Image",
+        "value": "img/CTA More info button.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "more"
+      },
+      {
+        "title": "Final Packages Image",
+        "value": "img/Package bottle smrsby.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "package"
+      }
+    ]
+  }],
+  "property": {
+    "bg1": "img/BG 1tree.png",
+    "bg2": "img/BG 2tree.png",
+    "bg3": "img/BG 3tree.png",
+    "bg4": "img/BG 4tree end.png",
+    "tap": "img/CTA button SIGN.png",
+    "water_can": "img/Wateringcan.png",
+    "water_can_w": "img/can_and_water.png",
+    "bottle_empty": "img/bottle smrsby.png",
+    "drag": "img/CTA copy Drag Apple.png",
+    "logo": "img/logo smrsby.png",
+    "apple": "img/apple.png",
+    "arrow": "img/arrow.png",
+    "live": "img/CTA copy Live your magic.png",
+    "install": "img/CTA install button.png",
+    "more": "img/CTA More info button.png",
+    "package": "img/Package bottle smrsby.png"
+  },
+  "trackers": ["tap1x", "tap2x", "tap3x", "drag", "more", "install"]
+}

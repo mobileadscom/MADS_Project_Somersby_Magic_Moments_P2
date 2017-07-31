@@ -1,0 +1,52 @@
+#rma-widget, #ad-container {
+    width: 320px;
+    height: 480px;
+}
+
+#ad-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#ad-container, #ad-container * {
+  padding: 0;
+  margin: 0;
+}
+
+.bg { width: 320px; height: 480px; position: absolute; left: 0; top: 0; opacity: 0; transition: opacity 0.5s linear; }
+.bg.active { background-position: bottom left !important; opacity: 1; }
+.overlay { position: absolute; z-index: 2; }
+.reveal, .reveal * { opacity: 1 !important; }
+.hide, .hide * { opacity: 0 !important; }
+
+#tap { bottom: 0; left: 0; }
+#second { display: none; }
+#third { display: none; opacity: 0; }
+#second *, #third * { transition: opacity 0.5s linear; opacity: 1; }
+#water_can { bottom: 52px; right: 0; transition: opacity 0.3s linear; }
+#water_can_w { right: 0; top: 70px; opacity: 0; transition: opacity 0.3s linear; }
+#bottle_empty { bottom: 0; right: 0; }
+#logo { left: 110px; top: 30px; }
+#apple { left: 30px; top: 310px; opacity: 0; }
+#arrow { left: 120px; top: 340px; }
+#drag { top: 380px; left: 20px; }
+#package { bottom: 0; right: 0; }
+#live { left: 12px; top: 120px; }
+#more { bottom: 120px; left: 5px; }
+#install { left: 0px; bottom: 65px; }
+
+.fall-anim {
+  animation: blur-fall;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  opacity: 1 !important;
+}
+.is-dragging { filter: blur(1px); }
+
+@keyframes blur-fall {
+  0% { top: 90px; filter: blur(5px); }
+  10% { top: 100px; filter: blur(4px); }
+  90% { top: 290px; filter: blur(2px); }
+  100% { top: 310px !important; filter: blur(0px); }
+}
