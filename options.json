@@ -86,6 +86,13 @@
         "target": "live"
       },
       {
+        "title": "Upload/Capture Photo Image",
+        "value": "img/frame button.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "upload"
+      },
+      {
         "title": "Install Button Image",
         "value": "img/CTA install button.png",
         "placeholder": "",
@@ -98,6 +105,13 @@
         "placeholder": "",
         "inputClass": "",
         "target": "more"
+      },
+      {
+        "title": "FB Button Image",
+        "value": "img/button fb.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "fb"
       },
       {
         "title": "Final Packages Image",
@@ -124,7 +138,9 @@
     "live": "img/CTA copy Live your magic.png",
     "install": "img/CTA install button.png",
     "more": "img/CTA More info button.png",
-    "package": "img/Package bottle smrsby.png"
+    "package": "img/Package bottle smrsby.png",
+    "upload": "img/upload.png",
+    "fb": "img/fb.png",
   },
-  "trackers": ["tap1x", "tap2x", "tap3x", "drag", "more", "install"]
+  "trackers": ["tap1x", "tap2x", "tap3x", "drag", "photo", "more", "fb_share", "whatsapp_share"]
 }

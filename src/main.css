@@ -19,22 +19,29 @@
 .overlay { position: absolute; z-index: 2; }
 .reveal, .reveal * { opacity: 1 !important; }
 .hide, .hide * { opacity: 0 !important; }
+.photo { bottom: 50px; left: 45px; width: 93px; height: 92px; }
 
 #tap { bottom: 0; left: 0; }
 #second { display: none; }
 #third { display: none; opacity: 0; }
+#fourth { position: absolute; width: 320px; height: 480px; left: -320px; transition: left 0.4s; }
 #second *, #third * { transition: opacity 0.5s linear; opacity: 1; }
 #water_can { bottom: 52px; right: 0; transition: opacity 0.3s linear; }
-#water_can_w { right: 0; top: 70px; opacity: 0; transition: opacity 0.3s linear; }
+#water_can_w { left: 0; top: 10px; opacity: 0; transition: opacity 0.3s linear; }
 #bottle_empty { bottom: 0; right: 0; }
-#logo { left: 110px; top: 30px; }
+#logo { left: 95px; top: 10px; }
 #apple { left: 30px; top: 310px; opacity: 0; }
 #arrow { left: 120px; top: 340px; }
+#arrow_can { left: 120px; top: 390px; }
 #drag { top: 380px; left: 20px; }
-#package { bottom: 0; right: 0; }
+#package { bottom: 0; right: 0; pointer-events: none; z-index: 3; }
 #live { left: 12px; top: 120px; }
-#more { bottom: 120px; left: 5px; }
-#install { left: 0px; bottom: 65px; }
+#more { top: 190px; left: 3px; }
+#fb { top: 206px; left: 208px; }
+#whatsapp { top: 205px; left: 90px; display: none; }
+#install { left: 10px; top: 244px; }
+#upload { bottom: 25px; left: 25px; }
+
 
 .fall-anim {
   animation: blur-fall;

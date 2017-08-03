@@ -14,5 +14,7 @@ json_data = {
   "live": "img/CTA copy Live your magic.png",
   "install": "img/CTA install button.png",
   "more": "img/CTA More info button.png",
-  "package": "img/Package bottle smrsby.png"
+  "package": "img/Package bottle smrsby.png",
+	"upload": "img/frame button.png",
+	"fb": "img/fb.png",
 }
