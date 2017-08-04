@@ -39,8 +39,7 @@ class AdUnit extends Mads {
         </div>
         <div id="fourth">
           <img src="${this.data.install.replace(/\s/g, '%20')}" id="install" class="overlay">
-          <img src="${this.data.more.replace(/\s/g, '%20')}" id="more" class="overlay">
-          <img src="${this.data.fb.replace(/\s/g, '%20')}" id="fb" class="overlay">
+          <img src="${this.data.share.replace(/\s/g, '%20')}" id="share" class="overlay">
         </div>
         ${bgs}
       </div>
@@ -263,7 +262,7 @@ class AdUnit extends Mads {
       }
     });
 
-    this.elems.fb.addEventListener('mousedown', () => {
+    this.elems.share.addEventListener('mousedown', () => {
       if (this.url === '') {
         window.alert('Image still uploading. Try again later.');
       } else {
@@ -279,10 +278,14 @@ class AdUnit extends Mads {
           const fileReader = new FileReader();
           fileReader.onload = () => {
             const img = new Image();
+            const imgContainer = window.document.createElement('div');
+            imgContainer.className = 'overlay photo';
+            imgContainer.append(img);
             img.src = fileReader.result;
-            img.className = 'overlay photo';
+            img.style.maxWidth = '100%';
+            img.style.maxHeight = '100%';
             img.onload = () => {
-              this.elems.third.append(img);
+              this.elems.third.append(imgContainer);
               pushImage().then(() => {
 
               });

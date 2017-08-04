@@ -97,21 +97,14 @@
         "value": "img/CTA install button.png",
         "placeholder": "",
         "inputClass": "",
-        "target": "tap"
+        "target": "install"
       },
       {
-        "title": "More Button Image",
-        "value": "img/CTA More info button.png",
+        "title": "Share Button Image",
+        "value": "img/share your photo btn.png",
         "placeholder": "",
         "inputClass": "",
-        "target": "more"
-      },
-      {
-        "title": "FB Button Image",
-        "value": "img/button fb.png",
-        "placeholder": "",
-        "inputClass": "",
-        "target": "fb"
+        "target": "share"
       },
       {
         "title": "Final Packages Image",
@@ -137,10 +130,9 @@
     "arrow": "img/arrow.png",
     "live": "img/CTA copy Live your magic.png",
     "install": "img/CTA install button.png",
-    "more": "img/CTA More info button.png",
+    "share": "img/share your photo btn.png",
     "package": "img/Package bottle smrsby.png",
-    "upload": "img/upload.png",
-    "fb": "img/fb.png",
+    "upload": "img/upload.png"
   },
   "trackers": ["tap1x", "tap2x", "tap3x", "drag", "photo", "more", "fb_share", "whatsapp_share"]
 }
