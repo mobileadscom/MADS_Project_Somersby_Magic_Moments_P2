@@ -250,6 +250,7 @@ class AdUnit extends Mads {
     });
 
     this.elems.upload.addEventListener('mousedown', () => {
+      this.tracker('E', 'upload');
       const event = new MouseEvent('click', {
         view: window,
         bubbles: true,
@@ -263,6 +264,7 @@ class AdUnit extends Mads {
     });
 
     this.elems.share.addEventListener('mousedown', () => {
+      this.tracker('E', 'share');
       if (this.url === '') {
         window.alert('Image still uploading. Try again later.');
       } else {
@@ -299,6 +301,11 @@ class AdUnit extends Mads {
 
     this.elems.inputFile.addEventListener('mousedown', function inputFileOnClick() {
       this.value = null;
+    });
+
+    this.elems.install.addEventListener('mousedown', () => {
+      this.tracker('E', 'install');
+      this.linkOpener('https://www.mcliqonapps.net/somersby/app/');
     });
 
     const waterClick = () => {
