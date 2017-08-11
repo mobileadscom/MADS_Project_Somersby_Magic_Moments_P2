@@ -19,9 +19,9 @@ class AdUnit extends Mads {
 
     return `
       <div class="container" id="ad-container">
-        <img src="${this.data.tap.replace(/\s/g, '%20')}" id="tap" class="overlay">
         <img src="${this.data.water_can.replace(/\s/g, '%20')}" id="water_can" class="overlay">
-        <img src="${this.data.arrow.replace(/\s/g, '%20')}" id="arrow_can" class="overlay">
+        <img src="${this.data.tapcan.replace(/\s/g, '%20')}" id="arrow_to_can" class="overlay">
+        <img src="${this.data.tap_can_up.replace(/\s/g, '%20')}" id="arrow_to_can_up" class="overlay hide">
         <img src="${this.data.water_can_w.replace(/\s/g, '%20')}" id="water_can_w" class="overlay hide">
         <div id="second" class="hide">
           <img src="${this.data.bottle_empty.replace(/\s/g, '%20')}" id="bottle_empty" class="overlay">
@@ -315,8 +315,9 @@ class AdUnit extends Mads {
       this.bg = this.bg === 3 ? 3 : this.bg + 1;
       if (!watering) {
         this.elems.water_can.className = 'overlay hide';
-        this.elems.arrow_can.className = 'overlay hide';
+        this.elems.arrow_to_can.className = 'overlay hide';
         this.elems.water_can_w.className = 'overlay reveal';
+        this.elems.arrow_to_can_up.className = 'overlay reveal';
         watering = true;
         this.tracker('E', 'tap1x');
         this.bg = 1;
@@ -330,7 +331,7 @@ class AdUnit extends Mads {
         this.tracker('E', `tap${this.bg}x`);
         setTimeout(() => {
           this.elems.water_can_w.className = 'overlay hide';
-          this.elems.tap.className = 'overlay hide';
+          this.elems.arrow_to_can_up.className = 'overlay hide';
         }, 600);
 
         setTimeout(() => {

@@ -16,25 +16,25 @@
         "target": "bg2"
       },
       {
-        "title": "3rd Tap Background",
+        "title": "Final Background",
         "value": "img/BG 3tree.png",
         "placeholder": "",
         "inputClass": "",
         "target": "bg3"
       },
       {
-        "title": "Final Background",
-        "value": "img/BG 4tree end.png",
+        "title": "Tap Arrow Down",
+        "value": "img/arrow to can.png",
         "placeholder": "",
         "inputClass": "",
-        "target": "bg4"
+        "target": "tapcan"
       },
       {
-        "title": "Tap Sign Board Image",
-        "value": "img/CTA button SIGN.png",
+        "title": "Tap Arrow Up",
+        "value": "img/arrow to can up.png",
         "placeholder": "",
         "inputClass": "",
-        "target": "tap"
+        "target": "tap_can_up"
       },
       {
         "title": "Watering Can Image",
@@ -120,7 +120,8 @@
     "bg2": "img/BG 2tree.png",
     "bg3": "img/BG 3tree.png",
     "bg4": "img/BG 4tree end.png",
-    "tap": "img/CTA button SIGN.png",
+    "tapcan": "img/arrow to can.png",
+    "tap_can_up": "img/arrow to can up.png",
     "water_can": "img/Wateringcan.png",
     "water_can_w": "img/can_and_water.png",
     "bottle_empty": "img/bottle smrsby.png",

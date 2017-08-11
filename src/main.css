@@ -29,19 +29,24 @@
 #water_can { bottom: 52px; right: 0; transition: opacity 0.3s linear; }
 #water_can_w { left: 0; top: 10px; opacity: 0; transition: opacity 0.3s linear; }
 #bottle_empty { bottom: 0; right: 0; }
-#logo { left: 95px; top: -10px; }
+#logo {     right: 12px;
+    top: 10px; }
 #apple { left: 30px; top: 310px; opacity: 0; }
 #arrow { left: 120px; top: 340px; }
 #arrow_can { left: 120px; top: 390px; }
-#share { top: 175px; left: -2px; }
+#share { top: 232px; }
 #drag { top: 380px; left: 20px; }
 #package { bottom: 0; right: 0; pointer-events: none; z-index: 3; }
-#live { left: 12px; top: 100px; }
+#live {     left: 43px;
+    top: 73px; }
 #more { top: 190px; left: 3px; }
 #fb { top: 206px; left: 208px; display: none; }
 #whatsapp { top: 205px; left: 90px; display: none; }
-#install { left: 10px; top: 250px; }
+#install { left: 4px;
+    top: 273px; }
 #upload { bottom: 25px; left: 25px; }
+#arrow_to_can { top: 230px; left: 115px; }
+#arrow_to_can_up { top: 195px; }
 
 
 .fall-anim {
