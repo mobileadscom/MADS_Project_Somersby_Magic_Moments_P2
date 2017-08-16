@@ -133,7 +133,7 @@
     "install": "img/CTA install button.png",
     "share": "img/share your photo btn.png",
     "package": "img/Package bottle smrsby.png",
-    "upload": "img/upload.png"
+    "upload": "img/frame button.png"
   },
-  "trackers": ["tap1x", "tap2x", "tap3x", "drag", "photo", "more", "fb_share", "whatsapp_share"]
+  "trackers": ["tap1x", "tap2x", "tap3x", "drag", "upload", "share", "install", "uploaded"]
 }
