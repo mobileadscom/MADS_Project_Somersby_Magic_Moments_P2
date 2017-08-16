@@ -17,6 +17,8 @@ class AdUnit extends Mads {
   render() {
     const bgs = [1, 2, 3, 4].map(i => `<div id="bg${i}" class="bg${i === 1 ? ' active' : ''}"></div>`).join('');
 
+    this.imageTracker(['https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22116327&PluID=0&ord=[timestamp]&rtu=-1']);
+
     return `
       <div class="container" id="ad-container">
         <img src="${this.data.water_can.replace(/\s/g, '%20')}" id="water_can" class="overlay">
@@ -264,10 +266,11 @@ class AdUnit extends Mads {
     });
 
     this.elems.share.addEventListener('mousedown', () => {
-      this.tracker('E', 'share');
       if (this.url === '') {
         window.alert('Image still uploading. Try again later.');
       } else {
+        this.tracker('E', 'share');
+        this.imageTracker(['https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22116324&PluID=0&ord=[timestamp]']);
         const url = encodeURIComponent(this.url);
         this.linkOpener(`https://www.facebook.com/sharer.php?u=${url}`);
       }
@@ -305,6 +308,7 @@ class AdUnit extends Mads {
 
     this.elems.install.addEventListener('mousedown', () => {
       this.tracker('E', 'install');
+      this.imageTracker(['https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22116329&PluID=0&ord=[timestamp]']);
       this.linkOpener('https://www.mcliqonapps.net/somersby/app/');
     });
 

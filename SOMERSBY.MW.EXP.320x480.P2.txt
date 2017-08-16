@@ -1,0 +1,27 @@
+<!--
+MobileAds Ad Tag
+Campaign: SOMERSBY - MW | EXP | 320x480 | P2
+DSP: Appier
+Ad Tag Type: Javascript
+Ad Format: Expandable
+-->
+<script type='text/javascript'>
+var rma = {
+'campaignId':'0631465c6cde5ec9ed1406917ff2f465',
+'secure':true,
+'ifViewability':true,
+'trackImp':'https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22116325&PluID=0&ord=[timestamp]&rtu=-1',
+'trackExp':'https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22116325&PluID=0&ord=[timestamp]',
+'customize':{
+'custTracker':[
+'https://www.cdn.serving1.net/a/analytic.htm?uid=0&isNew={{isNew}}&referredUrl={{referredUrl}}&rmaId={{rmaId}}&domainId=0&pageLoadId={{pageLoadId}}&userId={{userId}}&pubUserId=0&campaignId={{campaignId}}&browser={{browser}}&os={{os}}&domain={{domain}}&callback=trackSuccess&callback=trackSuccess&type={{rmatype}}&tt={{rmatt}}&value={{rmavalue}}']},
+'fet':'https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22116327&PluID=0&ord=[timestamp]',
+'tags':{
+'dsp':'Appier',
+'exchange':'Appier',
+'inventory':'${channel_id}',
+'uniqueId':'${mac}'
+}
+};
+</script>
+<img src='https://www.cdn.serving1.net/t?i=0631465c6cde5ec9ed1406917ff2f465&dsp=Appier&exchange=Appier&inventory=${channel_id}&uniqueId=${mac}&customId=noblock' width='1px' height='1px' style='display:none' onerror="this.onerror=null;this.src='https://track.richmediaads.com/t?i=0631465c6cde5ec9ed1406917ff2f465&dsp=Appier&exchange=Appier&inventory=${channel_id}&uniqueId=${mac}&customId=adblock';" /><script type='text/javascript' src='https://cdn.serving1.net/general.js'></script>

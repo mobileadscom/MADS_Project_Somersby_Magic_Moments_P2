@@ -1,0 +1,56 @@
+Placement Details:
+Placement ID: 22116325
+Agency: OMD MY (Carlsberg)
+Campaign: Carlsberg - 170731_Somersby_MagicMoments
+Campaign ID: 806625
+Site: Appier - ROS
+Placement Name: Appier_MM_Rich_Media_320x50_Phase2
+Placement Format Type: Tracking Only
+Booked Impressions: Unlimited
+Placement Dates:
+31/07/2017 00:00:00 - 27/08/2017 23:59:00
+
+//To track Impressions use the following URL:
+https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22116325&PluID=0&ord=[timestamp]&rtu=-1
+//To track Clicks use the following URL:
+//Note: Please ensure that you implement a click tracking URL only in the clicks location in your ad server,
+//and an impression tracking URL only in the impression tracking location.
+//Client is solely responsible for, and Sizmek has no liability for, any failure to properly implement the URLs and any related billing and reporting discrepancies.
+https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22116325&PluID=0&ord=[timestamp]
+
+
+Placement Details:
+Placement ID: 22116327
+Agency: OMD MY (Carlsberg)
+Campaign: Carlsberg - 170731_Somersby_MagicMoments
+Campaign ID: 806625
+Site: Appier - ROS
+Placement Name: Appier_MM_Rich_Media_320x480_Phase2
+Placement Format Type: Tracking Only
+Booked Impressions: Unlimited
+Placement Dates:
+31/07/2017 00:00:00 - 27/08/2017 23:59:00
+
+//To track Impressions use the following URL:
+https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22116327&PluID=0&ord=[timestamp]&rtu=-1
+//To track Clicks use the following URL:
+//Note: Please ensure that you implement a click tracking URL only in the clicks location in your ad server,
+//and an impression tracking URL only in the impression tracking location.
+//Client is solely responsible for, and Sizmek has no liability for, any failure to properly implement the URLs and any related billing and reporting discrepancies.
+https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22116327&PluID=0&ord=[timestamp]
+
+
+Placement Details:
+Placement ID: 22116329
+Agency: OMD MY (Carlsberg)
+Campaign: Carlsberg - 170731_Somersby_MagicMoments
+Campaign ID: 806625
+Site: Appier - ROS
+Placement Name: Appier_MM_Rich_Media_320x480_Phase2Appinstall
+Placement Format Type: Tracking Only
+Booked Impressions: Unlimited
+Placement Dates:
+31/07/2017 00:00:00 - 27/08/2017 23:59:00
+
+//To track Clicks use the following URL:
+https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=22116329&PluID=0&ord=[timestamp]
